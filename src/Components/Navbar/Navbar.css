@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+  }
 
 .navbar {
     display: flex;
@@ -68,7 +71,7 @@
     .nav-mob-open {
         display: block;
         position: fixed;
-        right: 30px;
+        right: 10px;
         top: 30px;
     }
 
@@ -88,7 +91,7 @@
         gap: 25px;
         background-color: whitesmoke;
         width: 300px;
-        height: 80%;
+        height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -100%;
@@ -119,6 +122,7 @@
     .navbar {
         margin: 0;
         padding: 0 10px;
+        min-height: 8vh;
     }
 
     .nav-menu {
@@ -129,7 +133,7 @@
     .nav-mob-open {
         display: block;
         position: fixed;
-        right: 15px;
+        right: 10px;
         top: 20px;
     }
     .nav-mob-close {
