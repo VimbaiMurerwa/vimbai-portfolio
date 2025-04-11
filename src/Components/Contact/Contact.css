@@ -1,24 +1,23 @@
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    margin-right: 20px;
-    padding: 80px 0;
-    background: whitesmoke;
-    width: 100%;
-  
-}
-
+ .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        margin-right: 20px;
+        padding: 80px 0;
+        background: whitesmoke;
+        width: 100%;
+      
+    }
+    
 .contact-title {
     position: relative;
 }
 
 .contact-title h1 {
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 600;
     text-shadow: 2px 2px 5px purple;
 }
@@ -35,8 +34,8 @@
 }
 
 .contact-left h1 {
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 72px;
+    font-weight: 600;
     background: linear-gradient(270deg, #DF8908 60%, #B415FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -46,7 +45,7 @@
 .contact-left p {
     max-width: 550px;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 35px;
 }
 
@@ -77,15 +76,16 @@ a:link {
 
 .contact-right label {
     color: black;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .contact-right input {
     border: none;
-    width: 700px;
+    width: 100%;
     height: 78px;
     padding-left: 20px;
+    margin-right: 20px;
     border-radius: 10px;
     background: rgb(48, 47, 47);
     color: #A0A0A0;
@@ -94,10 +94,11 @@ a:link {
 }
 
 .contact-right textarea {
-    width: 500px;
+    width: 100%;
     border: none;
     border-radius: 10px;
     padding: 25px;
+    margin-right: 20px;
     background: rgb(48, 47, 47);
     color: #A0A0A0;
     font-family: Outfit;
@@ -126,6 +127,7 @@ a:link {
         gap: 60px;
         padding: 60px 40px;
         margin: 0;
+        width: 100%;
     }
 
     .contact-title h1 {
@@ -174,7 +176,7 @@ a:link {
         margin: 0;
         align-items: start;
         width: 100%;
-        padding: 30px;
+        padding: 1 rem;
     }
 
     .contact-title h1 {
@@ -209,12 +211,12 @@ a:link {
     }
 
     .contact-right input {
-        width: 100%;
+        width: 80%;
         font-size: 18px; 
     }
 
     .contact-right textarea {
-        width: 100%;
+        width: 80%;
         font-size: 18px; 
     }
 
@@ -223,13 +225,72 @@ a:link {
         padding: 15px 40px;
     }
 }
-
+@media(max-width: 600px) {
+    .contact {
+      gap: 40px;
+      padding: 40px 20px;
+      margin: 0;
+      width: 100vw;
+      
+    }
+  
+    .contact-title h1 {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .contact-section {
+      flex-direction: column;
+      gap: 25px;
+    }
+  
+    .contact-left h1 {
+      font-size: 44px;
+      text-align: center;
+    }
+  
+    .contact-left p {
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+    }
+  
+    .contact-details {
+      font-size: 16px;
+      gap: 15px;
+      align-items: center;
+    }
+  
+    .contact-detail {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .contact-right label {
+      font-size: 18px;
+    }
+  
+    .contact-right input,
+    .contact-right textarea {
+      width: 70%;
+      font-size: 16px;
+    }
+  
+    .contact-submit {
+      font-size: 18px;
+      padding: 15px 30px;
+    }
+  }
+  
 
 @media(max-width: 480px) {
     .contact {
         gap: 30px;
-        margin: 0;
-        padding: 25px;
+        margin: 0 auto;
+        padding: 1rem;
+        width: 100%;
+       
     }
 
     .contact-title h1 {
@@ -263,7 +324,7 @@ a:link {
 
     .contact-right input,
     .contact-right textarea {
-        width: 100%;
+        width: 70%;
         font-size: 16px;
         margin: 0 10px;
 
@@ -280,6 +341,7 @@ a:link {
       margin: 0;
       padding: 20px 10px;
       align-items: start;
+      width: 100%;
     }
   
     .contact-title h1 {
@@ -316,7 +378,7 @@ a:link {
   
     .contact-right input,
     .contact-right textarea {
-      width: 100%;
+      width: 60%;
       font-size: 14px;
       padding: 10px 15px;
     }
