@@ -41,7 +41,7 @@ const MyWork = () => {
             </button>
             <button
               className="btn btn-clear"
-              onClick={() => (window.open = "https://moneymate-vite.netlify.app/", "_blank")}
+              onClick={() => window.open("https://moneymate-vite.netlify.app/", "_blank")}
             >
               Live Demo
             </button>
@@ -67,7 +67,7 @@ const MyWork = () => {
             </button>
             <button
               className="btn btn-clear"
-              onClick={() => (window.open = "https://netfli-clonekelpie.netlify.app/login", "_blank")}
+              onClick={() => window.open("https://netfli-clonekelpie.netlify.app/login", "_blank")}
             >
               Live Demo
             </button>
@@ -86,14 +86,15 @@ const MyWork = () => {
           <span className="tech"> CSS  </span> and
           <span className="tech"> Fetch API </span></p>
           <div className="btn-container">
-            <button
-              className="btn btn-color"
-              onClick={() => (window.location.href = "https://github.com/VimbaiMurerwa/netflix-clone", "_blank")}>
+          <button
+              className=" btn btn-color"
+              onClick={() => (window.open = "https://github.com/VimbaiMurerwa/netflix-clone", "_blank")}
+            >
               Github
             </button>
             <button
               className="btn btn-clear"
-              onClick={() => (window.location.href = "https://netfli-clonekelpie.netlify.app/login", "_blank")}
+              onClick={() => window.open("https://netfli-clonekelpie.netlify.app/login", "_blank")}
             >
               Live Demo
             </button>
