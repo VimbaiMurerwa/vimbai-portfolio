@@ -125,9 +125,7 @@ a {
   transform: scale(1.1);
 }
 
-/* --- Media Queries --- */
 
-/* 900px and below */
 @media (max-width: 900px) {
   .contact {
     gap: 60px;
@@ -197,7 +195,7 @@ a {
   }
 }
 
-/* 480px and below */
+
 @media (max-width: 480px) {
   .contact {
     gap: 30px;
@@ -239,7 +237,7 @@ a {
   }
 }
 
-/* 320px and below */
+
 @media (max-width: 320px) {
   .contact-title h1 {
     font-size: 34px;
