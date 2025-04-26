@@ -158,12 +158,12 @@
     }
 
     .hero-connect {
-        padding: 15px 25px;
+        padding: 10px 20px;
         border-radius: 35px;
     }
 
     .hero-resume {
-        padding: 15px 40px;
+        padding: 10px 30px;
         border-radius: 35px;
     }
 }
