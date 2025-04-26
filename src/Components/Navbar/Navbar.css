@@ -1,6 +1,6 @@
-body {
+body {                                                                          body {
     overflow-x: hidden;
-  }
+}
 
 .navbar {
     display: flex;
@@ -153,3 +153,5 @@ body {
         width: 80px;
     }
 }
+}
+  
