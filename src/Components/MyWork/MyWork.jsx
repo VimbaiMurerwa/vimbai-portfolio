@@ -61,7 +61,7 @@ const MyWork = () => {
           <div className="btn-container">
             <button
               className=" btn btn-color"
-              onClick={() => (window.open = "https://github.com/VimbaiMurerwa/netflix-clone", "_blank")}
+              onClick={() => window.open("https://github.com/VimbaiMurerwa/netflix-clone", "_blank")}
             >
               Github
             </button>
