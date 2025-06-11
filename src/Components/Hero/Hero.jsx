@@ -13,7 +13,9 @@ const Hero = () => {
         <p>I am a frontend developer, specializing in crafting responsive designs, I ensure that users across all devices enjoy a consistent and enjoyable experience, adhering to the best practices in web accessibility </p>
         <div className="hero-action">
             <div className="hero-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect with me</AnchorLink></div>
-        <div className= "hero-resume">My resume</div>
+        <a href="vimbaimurerwa soft.pdf" target="_blank"rel="noopener noreferrer" download>
+  <div className="hero-resume">My Resume</div>
+</a>
     </div>
     </div>
   )
