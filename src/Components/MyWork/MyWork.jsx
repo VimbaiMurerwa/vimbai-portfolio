@@ -80,7 +80,7 @@ const MyWork = () => {
           <div className="article-container"  data-aos="zoom-in" data-aos-delay="200">
             <img src={project3} alt="Project 3" className="project-img" />
              
-     <h2 className="experience-title">Project Three</h2>
+     <h2 className="experience-title">Barcode Maker</h2>
      <p>Created with <span className="tech"> Javascript </span>, 
           <span className="tech"> HTML </span>, 
           <span className="tech"> CSS  </span> and
@@ -88,7 +88,32 @@ const MyWork = () => {
           <div className="btn-container">
           <button
               className=" btn btn-color"
-              onClick={() => (window.open = "https://github.com/VimbaiMurerwa/netflix-clone", "_blank")}
+              onClick={() => (window.open = "https://github.com/VimbaiMurerwa/barcode-maker", "_blank")}
+            >
+              Github
+            </button>
+            <button
+              className="btn btn-clear"
+              onClick={() => window.open("https://vimbaimurerwa.github.io/barcode-maker/", "_blank")}
+            >
+              Live Demo
+            </button>
+          </div>
+        </div>
+        </div>
+
+         <div className="details-container">
+          <div className="article-container"  data-aos="zoom-in" data-aos-delay="200">
+            <img src={project3} alt="Project 3" className="project-img" />
+             
+     <h2 className="experience-title">Umba Create</h2>
+     <p>Created with <span className="tech"> React </span>, 
+          <span className="tech"> Firebase</span>, 
+          <span className="tech"> CSS  </span> </p>
+          <div className="btn-container">
+          <button
+              className=" btn btn-color"
+              onClick={() => (window.open = "https://github.com/VimbaiMurerwa/Umba-create", "_blank")}
             >
               Github
             </button>
@@ -101,7 +126,6 @@ const MyWork = () => {
           </div>
         </div>
         </div>
-
 
       </div>
     </div>
