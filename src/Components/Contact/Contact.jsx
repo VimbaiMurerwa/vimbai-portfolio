@@ -46,7 +46,7 @@ const Contact = () => {
           <img src={linkedin_icon} alt="" /> <a href="https://www.linkedin.com/in/vimbai-murerwa-0b4029171?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn </a>
           </div>
           <div className='contact-detail'>
-          <img src={call_icon} alt="" /> <p>+263782320851</p>
+          <img src={call_icon} alt="" /> <p>+971542715614</p>
           </div>
        </div>
        </div>
