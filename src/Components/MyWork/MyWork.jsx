@@ -4,17 +4,11 @@ import project1 from '../../assets/project_1.jpg';
 import project2 from '../../assets/project_2.jpg';
 import project3 from '../../assets/project_3.jpg';
 import project4 from '../../assets/project_4.jpg';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
+//import 'aos/dist/aos.css';
 
 const MyWork = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 8000,   
-      once: false,      
-      mirror: true      
-    });
-  }, []);
+  
 
   return (
     <div id="projects" className="mywork">
