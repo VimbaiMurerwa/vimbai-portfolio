@@ -3,6 +3,7 @@ import './MyWork.css';
 import project1 from '../../assets/project_1.jpg';
 import project2 from '../../assets/project_2.jpg';
 import project3 from '../../assets/project_3.jpg';
+import project4 from '../../assets/project_4.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -104,7 +105,7 @@ const MyWork = () => {
 
          <div className="details-container">
           <div className="article-container"  data-aos="zoom-in" data-aos-delay="200">
-            <img src={project3} alt="Project 3" className="project-img" />
+            <img src={project4} alt="Project 4" className="project-img" />
              
      <h2 className="experience-title">Umba Create</h2>
      <p>Created with <span className="tech"> React </span>, 
